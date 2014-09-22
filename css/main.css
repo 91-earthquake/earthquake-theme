@@ -1,0 +1,135 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,800,400');
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+
+html{
+	font-family: 'Open Sans', 'Verdana', Sans-Serif;
+	font-size: 1em;
+	font-weight: 400;
+	background-color: #95FFEA;
+}
+
+body{
+	margin: 0;
+}
+
+header#main{
+	position: fixed;
+	height: 40px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #E5573F;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+header#main a#logo{
+	float: left;
+	margin-left: 10px;
+	height: 40px;
+}
+
+header#main nav#main{
+	float: right;
+	height: 100%;
+
+}
+
+nav#main ul{
+	height: 100%;
+}
+
+nav#main ul li.nav-item{
+	display: inline-block;
+	height: 100%;
+}
+
+nav#main ul li.nav-item a{
+	padding: 0 10px;
+	height: 100%;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 1.3em;
+	font-weight: 800;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+	-ms-transition: 0.1s;
+	-o-transition: 0.1s;
+	transition: 0.1s;
+}
+
+nav#main ul li.nav-item a:hover{
+	color: 
+}
+
+div#content{
+	margin: 50px auto 100px auto;
+	min-height: 100%;
+	width: 80%;
+}
+
+table#link-table tr td a{
+	text-decoration: none;
+	color: #B2B2B2;
+}
+
+table#link-table tr td a:hover{
+	text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+}
+
+.input,
+input,
+button{
+	border: 1px solid #B2B2B2;
+	border-radius: 5px;
+	font-size: 1em;
+	color: #B2B2B2;
+	padding: 5px 10px;
+	width: 300px;
+}
+
+.textarea,
+textarea{
+	height: 200px;
+	font-family: 'Open Sans', 'Verdana', Sans-Serif;
+}
+
+.button,
+input[type="submit"],
+input[type="reset"],
+button{
+	width: auto;
+	background-color: #B2B2B2;
+	color: #FFFFFF;
+	font-size: 1.1em;
+}
+
+.button:active{
+	background-color: #FFFFFF;
+	color: #B2B2B2;
+}
+
+h1{font-size:2em;margin-bottom:20px}
+h2{font-size:1.5em}
+h3{font-size:1.25em}
+
+ul.items{
+	list-style-type: none;
+}
+
+article.post footer{
+	font-size: 0.7em;
+}

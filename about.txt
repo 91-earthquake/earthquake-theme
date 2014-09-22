@@ -1,0 +1,5 @@
+Theme name:    Earthquake
+Description:   This is a theme made for 9.1 Earthquake
+Author name:   Sibren Talens
+Author site:   http://sibrentalens.eu
+License:       http://licence.sibrentalens.eu
