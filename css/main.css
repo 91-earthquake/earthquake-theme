@@ -12,11 +12,7 @@ html{
 	font-family: 'Open Sans', 'Verdana', Sans-Serif;
 	font-size: 1em;
 	font-weight: 400;
-	background-color: #95FFEA;
-}
-
-body{
-	margin: 0;
+	background-color: #FFFFFF;
 }
 
 header#main{
@@ -25,7 +21,7 @@ header#main{
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: #E5573F;
+	background-color: #74d1ca;
 	color: #FFFFFF;
 	width: 100%;
 }
@@ -36,10 +32,21 @@ header#main a#logo{
 	height: 40px;
 }
 
+div.sub-header{
+	left: 0;
+	right: 0;
+	padding: 50px 0;
+	margin-top: 40px;
+	background-color: #74d1ca;
+}
+
+li.nav-item.active{
+	border-bottom: 5px solid #FFFFFF;
+}
+
 header#main nav#main{
 	float: right;
 	height: 100%;
-
 }
 
 nav#main ul{
@@ -68,58 +75,33 @@ nav#main ul li.nav-item a{
 }
 
 nav#main ul li.nav-item a:hover{
-	color: 
+	color: rgba(0, 0, 0, .3);
 }
 
 div#content{
-	margin: 50px auto 100px auto;
 	min-height: 100%;
 	width: 80%;
+	margin: 50px auto 100px auto;
 }
 
-table#link-table tr td a{
-	text-decoration: none;
-	color: #B2B2B2;
-}
-
-table#link-table tr td a:hover{
-	text-decoration: underline;
-}
-
-a{
-	text-decoration: none;
-}
-
-.input,
-input,
 button{
-	border: 1px solid #B2B2B2;
-	border-radius: 5px;
-	font-size: 1em;
-	color: #B2B2B2;
-	padding: 5px 10px;
-	width: 300px;
-}
-
-.textarea,
-textarea{
-	height: 200px;
-	font-family: 'Open Sans', 'Verdana', Sans-Serif;
-}
-
-.button,
-input[type="submit"],
-input[type="reset"],
-button{
-	width: auto;
-	background-color: #B2B2B2;
+	border-radius: 10px;
+	font-size: 1.3em;
 	color: #FFFFFF;
-	font-size: 1.1em;
+	font-weight: 700;
+	padding: 7px 20px;
+	margin: 10px;
+	background-color: #6EBB9B;
+	cursor: pointer;
+	-webkit-transition: font-size 0.2s;
+	-moz-transition: font-size 0.2s;
+	-ms-transition: font-size 0.2s;
+	-o-transition: font-size 0.2s;
+	transition: font-size 0.2s;
 }
 
-.button:active{
-	background-color: #FFFFFF;
-	color: #B2B2B2;
+button:hover{
+	font-size: 1.4em;
 }
 
 h1{font-size:2em;margin-bottom:20px}

@@ -1,5 +1,4 @@
 <?php theme_include('header'); ?>
-	<div id="content">
 		<h1><?php echo article_title(); ?></h1>
 		<article>
 			<?php echo article_markdown(); ?>
@@ -57,8 +56,6 @@
 				</tr>
 			</table>
 		</form>
-
-	</div>
 	<?php endif; ?>
 
 <?php theme_include('footer'); ?>

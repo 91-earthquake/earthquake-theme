@@ -1,6 +1,8 @@
 <header id="main">
 	<a id="logo" href="<?php echo base_url();?>">
-		<?php echo site_meta('logo', site_name());?>
+		<?php
+			echo site_meta('logo');
+		?>
 	</a>
 	<?php if(has_menu_items()): ?>
 	<nav id="main" role="navigation">

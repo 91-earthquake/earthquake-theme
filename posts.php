@@ -1,7 +1,4 @@
 <?php theme_include('header'); ?>
-
-<div id="content">
-
 	<?php if(has_posts()): ?>
 		<ul class="items">
 			<?php posts(); ?>
@@ -47,7 +44,5 @@
 	<?php else: ?>
 		<p>Looks like you have some writing to do!</p>
 	<?php endif; ?>
-
-</div>
 
 <?php theme_include('footer'); ?>
