@@ -1,4 +1,4 @@
-<header id="main">
+<header class="main">
 	<a id="logo" href="<?php echo base_url();?>">
 		<?php
 			echo site_meta('logo');
