@@ -15,36 +15,71 @@ html{
 	background-color: #FFFFFF;
 }
 
-header#main{
+header.main{
 	position: fixed;
-	height: 40px;
+	height: 60px;
 	top: 0;
 	left: 0;
 	right: 0;
 	background-color: #74d1ca;
 	color: #FFFFFF;
 	width: 100%;
+	-webkit-transition: height 0.5s;
+	-moz-transition: height 0.5s;
+	-ms-transition: height 0.5s;
+	-o-transition: height 0.5s;
+	transition: height 0.5s;
 }
 
-header#main a#logo{
+header.main a#logo{
 	float: left;
 	margin-left: 10px;
 	height: 40px;
 }
 
+.dark{
+	color: rgba(0, 0, 0, .3);
+}
+
+div.sub-header div.text h1{
+	font-weight: 400;
+}
+
+div.sub-header div.text{
+	width: 45%;
+	display: inline-block;
+}
+
+div.sub-header div.image{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 70px;
+}
+
+div.sub-header div.image img{
+	height: 200px;
+}
+
 div.sub-header{
 	left: 0;
 	right: 0;
-	padding: 50px 0;
+	padding: 50px 100px;
+	color: #FFFFFF;
 	margin-top: 40px;
 	background-color: #74d1ca;
 }
 
-li.nav-item.active{
-	border-bottom: 5px solid #FFFFFF;
+header.main.small{
+	height: 40px;
+	border-bottom: 3px solid rgba(0, 0, 0, .3);
 }
 
-header#main nav#main{
+header.main.small nav#main ul li.nav-item.active{
+	border-bottom: 3px solid #FFFFFF;
+}
+
+header.main nav#main{
 	float: right;
 	height: 100%;
 }
@@ -53,28 +88,36 @@ nav#main ul{
 	height: 100%;
 }
 
-nav#main ul li.nav-item{
+header.main nav#main ul li.nav-item{
 	display: inline-block;
 	height: 100%;
 }
 
-nav#main ul li.nav-item a{
+li.nav-item a{
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+header.main nav#main ul li.nav-item a{
 	padding: 0 10px;
 	height: 100%;
 	text-decoration: none;
 	display: block;
-	line-height: 40px;
+	line-height: 60px;
 	color: #FFFFFF;
-	font-size: 1.3em;
+	font-size: 1.7em;
 	font-weight: 800;
-	-webkit-transition: 0.1s;
-	-moz-transition: 0.1s;
-	-ms-transition: 0.1s;
-	-o-transition: 0.1s;
-	transition: 0.1s;
 }
 
-nav#main ul li.nav-item a:hover{
+header.main.small nav#main ul li.nav-item a{
+	line-height: 40px;
+	font-size: 1.3em;
+}
+
+header.main nav#main ul li.nav-item a:hover{
 	color: rgba(0, 0, 0, .3);
 }
 
@@ -114,4 +157,19 @@ ul.items{
 
 article.post footer{
 	font-size: 0.7em;
+}
+
+h1 a,
+h2 a{
+	text-decoration: none;
+	color: #000;
+}
+
+h1 a:hover,
+h2 a:hover{
+	text-decoration: underline;
+}
+
+footer ul li{
+	list-style-type: none;
 }

@@ -2,6 +2,8 @@
 		<meta charset="utf-8">
 		<title><?php echo page_title('Page can’t be found'); ?> - <?php echo site_name(); ?></title>
 
+		<script src="<?php echo theme_url('js/jquery.js');?>"></script>
+		<script src="<?php echo theme_url('js/main.js');?>"></script>
 		<link rel="stylesheet" href="<?php echo theme_url('/css/main.css'); ?>">
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
 		<link rel="shortcut icon" href="<?php echo theme_url('img/favicon.png'); ?>">
