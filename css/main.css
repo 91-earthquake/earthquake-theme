@@ -12,6 +12,8 @@ html{
 	font-family: 'Open Sans', 'Verdana', Sans-Serif;
 	font-size: 1em;
 	font-weight: 400;
+	min-height: 100%;
+	position: relative;
 	background-color: #FFFFFF;
 }
 
@@ -170,6 +172,24 @@ h2 a{
 h1 a:hover,
 h2 a:hover{
 	text-decoration: underline;
+}
+
+footer#main{
+	bottom: 0;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #74d1ca;
+}
+
+footer#main div#inner{
+	width: 80%;
+	padding: 50px;
+	color: #FFFFFF;
+}
+
+footer#main div#inner small{
+	text-align: center;
 }
 
 footer ul li{

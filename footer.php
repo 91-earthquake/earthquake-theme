@@ -1,5 +1,5 @@
-				<?php include'inc/footer.php';?>
-			</div>
+				</div>
+			<?php include'inc/footer.php';?>
 		</div>
 	</body>
 </html>
